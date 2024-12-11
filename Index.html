@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>My Shopping List</title>
+	</head>
+	<body>
+		<h1>My Shopping List</h1>
+
+		<div class="list-form">
+			<form>
+                <label for="item name">Item:</label>
+				<input
+					type="text"
+					placeholder="enter Item name"
+					id="product"
+					required
+				/>
+                <label for="Price">Price:</label>
+				<input type="text" placeholder="input Price" id="price" required />
+				<button type="submit">Add</button>
+			</form>
+		</div>
+
+		<section class="container"></section>
+		<section class="btn-sections hidden">
+			<button class="clear-list">Clear list</button>
+		</section>
+		<script src="/script.js"></script>
+</html>
